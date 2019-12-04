@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "colors": Object {
+          "background": "#FFFFFF",
+          "boxShadow": "0 0 0.1rem rgba(0, 0, 0, 0.08), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.14)",
+          "error": "rgb(235, 0, 141)",
+          "header": "#FFFFFF",
+          "input": "rgb(139, 149, 158)",
+          "inputBg": "rgba(0,0,0,0.025)",
+          "logo": "transparent",
+          "onBackground": "#313131",
+          "onError": "#FFFFFF",
+          "onInput": "rgb(25, 28, 31)",
+          "onPrimary": "#FFFFFF",
+          "onSecondary": "#FFFFFF",
+          "primary": "rgb(235, 0, 141)",
+          "secondary": "#0075eb",
+        },
+      }
+    }
+  >
+    <MemoryRouter
+      initialEntries={
+        Array [
+          Object {
+            "key": "ratesKey",
+            "pathname": "/weather",
+          },
+        ]
+      }
+    >
+      <App />
+    </MemoryRouter>
+  </ThemeProvider>
+</Provider>
+`;
